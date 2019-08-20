@@ -1,0 +1,46 @@
+body {
+  background-image: url(imgs/bg.jpg);
+  background-position: center center;
+  height: 100vh;
+}
+
+div {
+  margin: 3em 2em;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(255, 255, 255, 0.788);
+  text-shadow: 0 0 3px rgb(179, 179, 179);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+
+button {
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(-90deg, grey, whitesmoke);
+  box-shadow: 2px 2px 4px #111;
+  margin: 2% 45%;
+  position: relative;
+  top: 4em;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 2px 2px 4px rgb(131, 131, 131);
+  background-image: linear-gradient(-90deg, #777, #111);
+  color: whitesmoke;
+  transition: 0.3s;
+}
